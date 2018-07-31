@@ -100,3 +100,7 @@ VALUES (
 SELECT title
 FROM tasks
 WHERE title LIKE '%mistake%';
+
+--delete mistake 1 task
+DELETE FROM tasks
+WHERE title = 'mistake 1';
