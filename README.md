@@ -8,17 +8,17 @@ Prepare SQL statements while testing them on a local running database.
 
 Write all of your SQL statements in todo_app.sql
 
-1. Write a query to drop a database named `todo_app` if it exists
-1. Write a query to delete a user named `michael` if it exists
-1. Write a query to create a user named `michael` with an encrypted password `stonebreaker`
-1. Write a query to create a database named `todo_app`
-1. Connect to the newly created database
-1. Write a query to create a table named `tasks` using the **Initial columns** detailed below
-1. Define column `id` as the table's primary key
-1. Write queries to accomplish the following
-  1. remove the column named `completed`
-  1. add a column to `tasks` named `completed_at`:timestamp, that may be NULL, and has a default value of `NULL`.
-  1. change the `updated_at` column to not allow NULL values, and have a default value of `now()`
+<!-- 1. Write a query to drop a database named `todo_app` if it exists -->
+<!-- 1. Write a query to delete a user named `michael` if it exists -->
+<!-- 1. Write a query to create a user named `michael` with an encrypted password `stonebreaker` -->
+<!-- 1. Write a query to create a database named `todo_app` -->
+<!-- 1. Connect to the newly created database -->
+<!-- 1. Write a query to create a table named `tasks` using the **Initial columns** detailed below -->
+<!-- 1. Define column `id` as the table's primary key -->
+<!-- 1. Write queries to accomplish the following -->
+  <!-- 1. remove the column named `completed` -->
+  <!-- 1. add a column to `tasks` named `completed_at`:timestamp, that may be NULL, and has a default value of `NULL`. -->
+  <!-- 1. change the `updated_at` column to not allow NULL values, and have a default value of `now()` -->
   1. create a new task, by only setting values (not defining which columns)
   `id = default value`  
   `title = 'Study SQL'`  
