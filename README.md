@@ -19,13 +19,13 @@ Write all of your SQL statements in todo_app.sql
   <!-- 1. remove the column named `completed` -->
   <!-- 1. add a column to `tasks` named `completed_at`:timestamp, that may be NULL, and has a default value of `NULL`. -->
   <!-- 1. change the `updated_at` column to not allow NULL values, and have a default value of `now()` -->
-  1. create a new task, by only setting values (not defining which columns)
+  <!-- 1. create a new task, by only setting values (not defining which columns)
   `id = default value`  
   `title = 'Study SQL'`  
   `description = 'Complete this exercise'`  
   `created_at = now()`  
   `updated_at = now()`  
-  `completed_at = NULL`
+  `completed_at = NULL` -->
   1. create a new task  
   `title = 'Study PostgreSQL'`  
   `description = 'Read all the documentation'`  
