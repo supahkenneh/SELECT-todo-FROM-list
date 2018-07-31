@@ -109,3 +109,12 @@ WHERE title = 'mistake 1';
 SELECT title, description
 FROM tasks
 WHERE title LIKE '%mistake%';
+
+--delete all tasks that include word mistake in title
+DELETE FROM tasks
+WHERE title LIKE '%mistake%';
+
+--select all fields of all tasks sorted by title in asc order
+SELECT *
+FROM tasks
+ORDER BY title ASC;

@@ -42,11 +42,11 @@ Write all of your SQL statements in todo_app.sql
   1. create a new task  
   `title = 'third mistake'`  
   `description = 'another test entry'`   -->
-  1. select title fields of all tasks with a title that includes the word `'mistake'`
-  1. delete the task that has a title of `mistake 1`
-  1. select title and description fields of all tasks with a title that includes the word `'mistake'`
-  1. delete all tasks that includes the word `'mistake'` in the title
-  1. select all fields of all tasks sorted by `title` in ascending order
+  <!-- 1. select title fields of all tasks with a title that includes the word `'mistake'` -->
+  <!-- 1. delete the task that has a title of `mistake 1` -->
+  <!-- 1. select title and description fields of all tasks with a title that includes the word `'mistake'` -->
+  <!-- 1. delete all tasks that includes the word `'mistake'` in the title -->
+  <!-- 1. select all fields of all tasks sorted by `title` in ascending order -->
 
 #### Initial Columns for `tasks`
 
