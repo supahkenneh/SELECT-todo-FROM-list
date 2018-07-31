@@ -65,5 +65,8 @@ UPDATE tasks
 SET completed_at = now()
 WHERE title = 'Study SQL';
 
-
+--get titles and description of tasks that aren't completed
+SELECT title, description
+FROM tasks
+WHERE completed_at IS NULL;
 
