@@ -26,22 +26,22 @@ Write all of your SQL statements in todo_app.sql
   `created_at = now()`  
   `updated_at = now()`  
   `completed_at = NULL` -->
-  1. create a new task  
+  <!-- 1. create a new task  
   `title = 'Study PostgreSQL'`  
-  `description = 'Read all the documentation'`  
-  1. select all the titles of tasks that are not yet completed
-  1. update the task with a title of `'Study SQL'` to be completed as of now
-  1. select all titles and descriptions of tasks that are not yet completed
-  1. select all fields of every task sorted by creation date in descending order
-  1. create a new task  
+  `description = 'Read all the documentation'`   -->
+  <!-- 1. select all the titles of tasks that are not yet completed -->
+  <!-- 1. update the task with a title of `'Study SQL'` to be completed as of now -->
+  <!-- 1. select all titles and descriptions of tasks that are not yet completed -->
+  <!-- 1. select all fields of every task sorted by creation date in descending order -->
+  <!-- 1. create a new task  
   `title = 'mistake 1'`  
-  `description = 'a test entry'`  
-  1. create a new task  
+  `description = 'a test entry'`   -->
+  <!-- 1. create a new task  
   `title = 'mistake 2'`  
   `description = 'another test entry'`  
   1. create a new task  
   `title = 'third mistake'`  
-  `description = 'another test entry'`  
+  `description = 'another test entry'`   -->
   1. select title fields of all tasks with a title that includes the word `'mistake'`
   1. delete the task that has a title of `mistake 1`
   1. select title and description fields of all tasks with a title that includes the word `'mistake'`

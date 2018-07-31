@@ -73,4 +73,30 @@ WHERE completed_at IS NULL;
 --get all fields from tasks sorted in descending order
 SELECT * 
 FROM tasks
-ORDER BY created_at DESC
+ORDER BY created_at DESC;
+
+--create new task
+INSERT INTO tasks (title, description)
+VALUES (
+  'mistake 1',
+  'a test entry'
+);
+
+--create new task
+INSERT INTO tasks (title, description)
+VALUES (
+  'mistake 2',
+  'another test entry'
+);
+
+--create new task
+INSERT INTO tasks (title, description)
+VALUES (
+  'third mistake',
+  'another test entry'
+);
+
+--select titles that include word mistake
+SELECT title
+FROM tasks
+WHERE title LIKE '%mistake%';
