@@ -70,3 +70,7 @@ SELECT title, description
 FROM tasks
 WHERE completed_at IS NULL;
 
+--get all fields from tasks sorted in descending order
+SELECT * 
+FROM tasks
+ORDER BY created_at DESC
